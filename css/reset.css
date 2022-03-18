@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{margin:0; padding:0;}
+body{font-size:12px; line-height: 1; word-break: keep-all; color: #222; background: #fff; font-family: 'Lato', sans-serif; letter-spacing: .05rem;}
+a{color:#222; text-decoration: none;}
+img{border:none; vertical-align:top; width: 100%; height: auto;}
+ul{list-style:none;}
+ol{list-style:none;}
+li{list-style:none;}
+address{font-style:normal;}
+h1,h2,h3,h4,h5,h6,div,ul,li,ol,dl,dt,dd,section,a,nav{box-sizing: border-box;}
+i{font-style:normal;}
+button{border: none; background: none; font-family: 'Lato', sans-serif; cursor: pointer; letter-spacing: .05rem; color: #222;}
+
+input{-webkit-appearance: none; background: none; border: none;}
+

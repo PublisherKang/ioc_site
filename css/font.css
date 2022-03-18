@@ -1,0 +1,21 @@
+/* lato */
+@font-face {
+    src: url('../font/Lato-Black.ttf') format('truetype');
+    font-family: 'Lato-Black', sans-serif;
+}
+
+@font-face {
+    src: url('../font/Lato-Bold.ttf') format('truetype');
+    font-family: 'Lato-Bold', sans-serif;
+}
+
+@font-face {
+    src: url('../font/Lato-Light.ttf') format('truetype');
+    font-family: 'Lato-Light', sans-serif;
+}
+
+@font-face {
+    src: url('../font/Lato-Regular.ttf') format('truetype');
+    font-family: 'Lato-Regular', sans-serif;
+}
+
