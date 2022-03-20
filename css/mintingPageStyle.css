@@ -32,13 +32,14 @@
 }
 
 .inner_wrap .image_wrap{
-    width: 300px;
-    height: 300px;
+    width: 40vw;
+    height: 40vw;
     border: 5px solid #000;
     background: url(../images/IOC_NFT_BG.gif) no-repeat center center / contain;
 }
 
 .inner_wrap .price_wrap{
+    width: 54vw;
     padding-top: 50px;
 }
 
@@ -92,4 +93,38 @@
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+
+@media screen and (max-width: 1199px) {
+    #wrap{height: auto; padding-bottom: 50px; background: url(../images/IOC_NFT_BG-noembers_1920px.jpg) no-repeat center 0 / cover;}
+
+    #container{height: auto; background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat center 0 / cover;}
+    .container_bg{height: auto;}
+
+    .logo{width: 33.59375vw;}
+    .inner_wrap{width: 86vw; flex-direction: column; align-items: center;}
+
+    .inner_wrap .price_wrap{text-align: center; width: 80vw;}
+    .inner_wrap .price_wrap li{line-height: 1.5;}
+
+    .guide_wrap{flex-direction: column; align-items: center; width: 86vw;}
+
+    .guide_inner{margin-bottom: 30px; width: 64vw;}
+    .guide_inner li{text-align: left; font-size: 16px;}
+
+    .meta_btn{position: static; margin: 0 auto; width: 44vw; bottom: auto; left: auto; transform: none; display: block;}
+
+}
+
+@media screen and (max-width: 767px){
+    .container_bg h2{line-height: 1.2; padding-top: 36vw;}
+    .inner_wrap .image_wrap{width: 70vw; height: 70vw;}
+    .inner_wrap{margin-bottom: 20vw;}
+    .guide_inner li{font-size: 14px;}
+    .inner_wrap .price_wrap{width: 92vw;}
+    .inner_wrap .price_wrap li{font-size: 14px;}
+    .inner_wrap .price_wrap li input{font-size: 14px; width: 42px; height: 24px;}
+
+    .meta_btn{width: 56vw;}
 }

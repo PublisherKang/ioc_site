@@ -59,7 +59,7 @@
 .cont3 .text_wrap{width: 880px; margin: 0 auto 160px; position: relative;}
 .cont3 .text_wrap p{margin-bottom: 50px; color: #fff; font-size: 18px; line-height: 1.4; text-align: justify;}
 
-.cont3 .mint_btn, .form_wrap .send_btn{padding: 16px 30px; color: #fff; text-align: center; font-size: 18px; background: #000; margin: 0 auto; display: block;}
+.cont3 .mint_btn, .form_wrap .send_btn{padding: 16px 30px; color: #fff; text-align: center; font-size: 18px; background: #000; margin: 0 auto; display: block; width: 208px;}
 
 .contact_wrap{padding-top: 100px;}
 .contact_wrap .title{color: #fff; text-align: center; font-size: 18px; font-family: 'Lato', sans-serif; font-weight: bold; margin-bottom: 20px;}
