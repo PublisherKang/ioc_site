@@ -162,9 +162,9 @@
 #container{width: 100%; background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat center -600px / 1920px auto; background-attachment: fixed;}
 
 
-.cont1{padding-bottom: 30vw; box-sizing: content-box;}
+.cont1{padding-bottom: 30vw; box-sizing: content-box; height: 100vmax;}
 
-.cont1_inner{width: 100%; background: url(../images/IOC_NFT_22b_1920px.png) no-repeat center -15.33333vw / 150vw auto; height: 100vh;}
+.cont1_inner{width: 100%; background: url(../images/IOC_NFT_22b_1920px.png) no-repeat center -15.33333vw / 100vh auto; height: 100vh;}
 
 .px1200{width: 100%; padding: 0 20px;}
 
