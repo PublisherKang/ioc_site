@@ -11,7 +11,7 @@
 
 #container{width: 100%; background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat center 0 / 100vw 126vh; background-attachment: fixed;}
 
-.gnb{position: fixed; top: 262px; left: 0;}
+.gnb{position: fixed; top: 150px; left: 0;}
 
 .gnb ul{display: flex; flex-direction: column; gap: 30px;}
 .gnb li{}
@@ -52,14 +52,17 @@
 .info_wrap li .info{color: #fff; font-size: 18px; font-family: 'Lato', sans-serif; font-weight: 600;}
 
 
-.cont3 .cont3_inner{/* background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat 0 0 / 1920px auto; */ padding-bottom: 500px;}
+.cont3 .cont3_inner{/* background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat 0 0 / 1920px auto; */}
 
 .cont3 .cont3_inner h2{padding-top: 184px;}
 
-.cont3 .text_wrap{width: 880px; margin: 0 auto 160px; position: relative;}
-.cont3 .text_wrap p{margin-bottom: 50px; color: #fff; font-size: 18px; line-height: 1.4; text-align: justify;}
+.cont3 .text_wrap, .cont3 .second_text{width: 880px; margin: 0 auto 200px; position: relative;}
+.cont3 .text_wrap p, .cont3 .second_text p{margin-bottom: 100px; color: #fff; font-size: 18px; line-height: 1.4; text-align: justify;}
 
+.cont3 .second_text{padding-top: 100px;}
 .cont3 .mint_btn, .form_wrap .send_btn{padding: 16px 30px; color: #fff; text-align: center; font-size: 18px; background: #000; margin: 0 auto; display: block; width: 208px;}
+
+.ukra_btn{color: #fff; text-decoration: underline;}
 
 .contact_wrap{padding-top: 100px;}
 .contact_wrap .title{color: #fff; text-align: center; font-size: 18px; font-family: 'Lato', sans-serif; font-weight: bold; margin-bottom: 20px;}
@@ -103,9 +106,9 @@
 
 .cont2 h2, .cont3 h2{padding-top: 7.5vw; font-size: 16px; margin-bottom: 2.5vw;}
 
-.cont2 .text_wrap{width: 77.291666vw; margin: 0 auto 12.5vw;}
+.cont2 .text_wrap, .cont3 .second_text{width: 77.291666vw; margin: 0 auto 12.5vw;}
 
-.cont2 .text_wrap p{margin-bottom: 2.5vw; color: #fff; font-size: 16px;}
+.cont2 .text_wrap p, .cont3 .second_text p{margin-bottom: 2.5vw; color: #fff; font-size: 16px;}
 
 .roadmap_wrap{margin-bottom: 6.333333vw;}
 .roadmap_wrap h2{padding-top: 5vw;}
@@ -119,12 +122,12 @@
 .info_wrap li .circle{width: 2.33333vw; height: 2.33333vw; background: url(../images/circle.png) no-repeat center center / contain;}
 
 
-.cont3 .cont3_inner{background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat 0 0 / 100vmax auto; padding-bottom: 41.66666vw;}
+.cont3 .cont3_inner{background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat 0 0 / 100vmax auto; padding-bottom: 0;}
 
 .cont3 .cont3_inner h2{padding-top: 15.33333vw;}
 
-.cont3 .text_wrap{width: 73.3333vw; margin: 0 auto 13.33333vw;}
-.cont3 .text_wrap p{margin-bottom: 4.16666vw; font-size: 16px;}
+.cont3 .text_wrap, .cont3 .second_text{width: 73.3333vw; margin: 0 auto 13.33333vw;}
+.cont3 .text_wrap p, .cont3 .second_text p{margin-bottom: 4.16666vw; font-size: 16px;}
 
 .cont3 .mint_btn, .form_wrap .send_btn{padding: 1.333333vw 2.5vw; font-size: 16px;}
 
@@ -175,9 +178,9 @@
 
 .cont2 h2, .cont3 h2{padding-top: 7.5vw; font-size: 14px; margin-bottom: 2.5vw;}
 
-.cont2 .text_wrap{width: 85vw; margin: 0 auto 12.5vw;}
+.cont2 .text_wrap, .cont3 .second_text{width: 85vw; margin: 0 auto 12.5vw;}
 
-.cont2 .text_wrap p{margin-bottom: 2.5vw; color: #fff; font-size: 14px; text-align: justify; word-break: break-word; hyphens: auto;}
+.cont2 .text_wrap p, .cont3 .second_text p{margin-bottom: 2.5vw; color: #fff; font-size: 14px; text-align: justify; word-break: break-word; hyphens: auto;}
 
 .roadmap_wrap{margin-bottom: 6.333333vw;}
 .roadmap_wrap h2{padding-top: 5vw;}
@@ -192,7 +195,7 @@
 .info_wrap li .info{font-size: 2.604166vw;}
 
 
-.cont3 .cont3_inner{background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat 0 0 / auto 100vmax; padding-bottom: 41.66666vw;}
+.cont3 .cont3_inner{background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat 0 0 / auto 100vmax; padding-bottom: 0;}
 
 .cont3 .cont3_inner h2{padding-top: 15.33333vw;}
 

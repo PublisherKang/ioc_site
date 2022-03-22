@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // pc 메뉴 이동
-    var nav = $(".gnb ul li");
+    var nav = $(".gnb ul li.slide");
     var cont = $("#container .nav_go");
 
     nav.click(function(c){
