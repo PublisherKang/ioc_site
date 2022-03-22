@@ -29,17 +29,7 @@
                         <div class="image_wrap"></div>
                         <div class="price_wrap">
                             <ul>
-                                <li>UNIT PRICE: .1 ETH</li>
-                                <li>
-                                    <span>PURCHASE QUANTITY:</span>
-                                    <input type="text">
-                                    <span>EACH</span>
-                                </li>
-                                <li>
-                                    <span>TOTAL PURCHASE AMOUNT:</span>
-                                    <input type="text">
-                                    <span>ETH</span>
-                                </li>
+                                <li>UNIT PRICE: <span class="price">.1</span> ETH</li>
                             </ul>
                         </div>
                     </div>
@@ -69,6 +59,17 @@
                 </section><!-- BG -->
             </div>
         </div>
+        <div class="popup_wrap" onclick="metamaskPopHidden()">
+            <div class="pop_inner">
+                <p>
+                    Waiting for the transaction to be confirmed.<br> In some cases, it may take a few minutes.
+                    <span>.</span>
+                    <span>.</span>
+                    <span>.</span>
+                </p>
+              <img src="iconimg/loading3.svg" alt="">
+            </div>
+          </div>
     </div>
 </body>
 </html>
