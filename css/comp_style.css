@@ -18,13 +18,14 @@
     display: block;
     width: 208px;
 }
-.second_text{width: 90%; margin: 0 auto;}
+.second_text{width: 1200px; margin: 0 auto;}
 
 .first_text a{width: 270px;}
 
 @media screen and (max-width: 1199px) {
     #wrap{height: 100vmax;}
     #container{padding: 0 20px;}
+    .second_text{width: 90%;}
 
     .fail_page{width: 100%;}
 }
