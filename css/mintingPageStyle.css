@@ -18,7 +18,7 @@
 .container_bg h2{
     color: #fff;
     font-size: 18px;
-    padding-top: 186px;
+    padding-top: 110px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -41,7 +41,7 @@
 
 .inner_wrap .price_wrap{
     width: 400px;
-    padding-top: 130px;
+    padding-top: 40px;
 }
 
 .inner_wrap .price_wrap ul{
@@ -74,18 +74,18 @@
 
 .guide_wrap{
     display: flex;
-    justify-content: space-around;
-    width: 800px;
+    justify-content: space-between;
+    width: 50%;
     margin: 0 auto;
 }
 
-.guide_inner{width: 34%;}
+.guide_inner{width: 100%;}
 
-.guide_inner p{color: #fff; font-size: 18px; margin-bottom: 20px; text-align: center;}
+.guide_inner p{color: #fff; font-size: 18px; margin-bottom: 20px; }
 
-.guide_inner ol{list-style: decimal; text-align: center;}
+.guide_inner ol{list-style: decimal;}
 
-.guide_inner li{color: #fff; font-size: 18px; margin-bottom: 20px; list-style: decimal; text-align: center;}
+.guide_inner li{color: #fff; font-size: 18px; margin-bottom: 20px; list-style: decimal; }
 
 
 .guide_inner li:last-child{margin-bottom: 0;}
@@ -132,8 +132,8 @@
 
     .guide_wrap{flex-direction: column; align-items: center; width: 86vw;}
 
-    .guide_inner{margin-bottom: 30px; width: 64vw;}
-    .guide_inner li{text-align: left; font-size: 16px;}
+    .guide_inner{width: 70vw; text-align: center; margin: 0 auto 30px; overflow-wrap: break-word;}
+    .guide_inner li{text-align: left; font-size: 16px; line-height: 1.2;}
 
     .meta_btn{position: static; margin: 0 auto; width: 44vw; bottom: auto; left: auto; transform: none; display: block;}
 

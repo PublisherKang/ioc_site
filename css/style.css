@@ -3,7 +3,7 @@
 
 #wrap{background: url(../images/IOC_NFT_BG-noembers_00283.jpg) no-repeat center 0 / 100vw 100vh; background-attachment: fixed;}
 
-#header{width: 100%;}
+#header{width: 100%; position: relative; z-index: 300;}
 .headerIn{width: 1200px; padding: 0 20px; position: relative; margin: 0 auto;}
 
 .logo{width: 400px; position: absolute; top: 40px;}
@@ -42,6 +42,8 @@
 .roadmap_wrap h2{padding-top: 60px;}
 .frame_wrap{width: 900px; margin: 0 auto;}
 .road_text{width: 880px; color: #fff; font-size: 18px; margin: 0 auto; line-height: 1.3; text-align: justify; word-break: break-word; hyphens: auto;}
+
+.road_text > span{display: block;}
 
 .info_wrap{width: 1160px; margin: 0 auto; position: relative;}
 .info_wrap::after{content: ""; display: block; width: 100%; height: 3px; background-color: #fff; position: absolute; top: 13px; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%);}
