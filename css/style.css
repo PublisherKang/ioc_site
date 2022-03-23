@@ -9,7 +9,7 @@
 .logo{width: 400px; position: absolute; top: 40px;}
 .logo a{display: block;}
 
-#container{width: 100%; background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat center 0 / 100vw 126vh; background-attachment: fixed;}
+#container{width: 100%; background: url(../images/IOC_NFT_BG_1920px.jpg) no-repeat center 0 / 100vw auto; background-attachment: fixed;}
 
 .gnb{position: fixed; top: 150px; left: 0;}
 

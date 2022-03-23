@@ -31,6 +31,6 @@
 }
 @media screen and (max-width: 767px) {
     .video_wrap{width: calc(290px - 4vw); height: calc(290px - 4vh);;}
-    #wrap{height: 100%;}
+    #wrap{}
     .meta_text, .second_text p{margin-bottom: 30px;}
 }
