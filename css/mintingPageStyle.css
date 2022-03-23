@@ -116,7 +116,7 @@
     #wrap{height: 100%; padding-bottom: 50px; background: url(../images/IOC_NFT_BG-noembers_1920px.jpg) no-repeat center 0 / cover;}
 
     #container{height: auto; background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat center 0 / auto 100vmax;}
-    .container_bg{height: 100vmax;}
+    .container_bg{height: auto;}
     
 
     .logo{width: 33.59375vw;}
@@ -146,7 +146,7 @@
     .container_bg h2{line-height: 1.2; padding-top: 36vw;}
     .container_bg.fail_page h2{padding-top: 40vw;}
     .inner_wrap .image_wrap{width: 70vw; height: 70vw;}
-    .inner_wrap{margin-bottom: 20vw;}
+    .inner_wrap{margin-bottom: 10vw;}
     .guide_inner li{font-size: 14px;}
     .inner_wrap .price_wrap{width: 92vw;}
     .inner_wrap .price_wrap li{font-size: 14px;}

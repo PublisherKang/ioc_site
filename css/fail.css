@@ -23,7 +23,7 @@
 .first_text a{width: 220px;}
 
 @media screen and (max-width: 1199px) {
-    #wrap{height: auto}
+    #wrap{height: 100vmax}
     #container{padding: 0 20px;}
     .second_text{width: 90%;}
 
