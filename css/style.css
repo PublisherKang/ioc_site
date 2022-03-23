@@ -180,7 +180,7 @@
 
 @media screen and (max-width: 767px) {
 
-#wrap{background: url(../images/IOC_NFT_BG-noembers_1920px.jpg) no-repeat center 0 / 1920px 1000px; background-attachment: fixed;}
+#wrap{background: url(../images/IOC_NFT_BG-noembers_1920px.jpg) no-repeat center 0 / 100vh auto; background-attachment: fixed;}
 
 .headerIn{width: 100%; padding: 0 20px;}
 
