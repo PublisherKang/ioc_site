@@ -116,7 +116,7 @@
     #wrap{height: 100%; padding-bottom: 50px; background: url(../images/IOC_NFT_BG-noembers_1920px.jpg) no-repeat center 0 / cover;}
 
     #container{height: auto; background: url(../images/IOC_NFT_22_GLITCHES_patterntrans256.gif) no-repeat center 0 / auto 100vmax;}
-    .container_bg{height: auto;}
+    .container_bg{height: 100vmax;}
     
 
     .logo{width: 33.59375vw;}
