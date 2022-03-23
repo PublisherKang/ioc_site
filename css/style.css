@@ -61,7 +61,7 @@
 .cont3 .text_wrap, .cont3 .second_text{width: 880px; margin: 0 auto 140px; position: relative;}
 .cont3 .text_wrap p, .cont3 .second_text p{margin-bottom: 100px; color: #fff; font-size: 18px; line-height: 1.4; text-align: justify;}
 
-.cont3 .second_text{padding-top: 100px;}
+.cont3 .second_text{padding-top: 24px;}
 .cont3 .mint_btn, .form_wrap .send_btn{padding: 16px 30px; color: #fff; text-align: center; font-size: 18px; background: #000; margin: 0 auto; display: block; width: 208px;}
 
 .ukra_btn{color: #fff; text-decoration: underline;}
